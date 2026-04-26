@@ -66,4 +66,4 @@ def run_simulation(model="llama3.2", rounds=20, num_agents=6):
     return all_logs, agents
 
 if __name__ == "__main__":
-    run_simulation(model="llama3.2", rounds=10)
+    run_simulation(model="mistral", rounds=10)
